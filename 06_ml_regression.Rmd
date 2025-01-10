@@ -249,9 +249,9 @@ The default performance metrics to be computed for regression models are RMSE (r
 \index{RMSE}
 \index{coefficient of determination}
 ```{block, type = "rmdnote"}
-RSME and $R^2$ are performance metrics used for regression models. 
+RMSE and $R^2$ are performance metrics used for regression models. 
 
-RSME is a measure of the difference between the predicted and observed values; if the model fits the data well, RMSE is lower. To compute RMSE, you take the mean values of the squared difference between the predicted and observed values, then take the square root. 
+RMSE is a measure of the difference between the predicted and observed values; if the model fits the data well, RMSE is lower. To compute RMSE, you take the mean values of the squared difference between the predicted and observed values, then take the square root. 
 
 $R^2$ is the squared correlation between the predicted and observed values. When the model fits the data well, the predicted and observed values are closer together with a higher correlation between them. The correlation between two variables is bounded between −1 and 1, so the closer $R^2$ is to one, the better.
 ```
